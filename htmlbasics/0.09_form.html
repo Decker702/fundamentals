@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+	<H1>Forms</H1>
+	<H2>Basic form with input fields</H2>
+
+	<div class="form-one">
+		<form>
+			
+			<p><label>Customer Name:<input /></label></p>
+			<p><label>Street Address:<input /></label></p>
+			<p><label>City:<input /></label></p>
+			<p><label>Area Code:<input /></label></p>
+			<p><label>Phone Number:<input /></label></p>
+		</form>
+	</div>
+	<br> <!-- puts space between sections of the form -->
+
+	<H2>Basic Form with Fieldset </H2>
+
+	<div class="form-two">
+		<form>
+			<fieldset> <!-- fieldset puts a border around it -->
+				<legend> Customer</legend>
+
+			<p><label>Customer Name:<input /></label></p>
+			<p><label>Phone:<input type=tel /></label></p>
+			<p><label>Email:<input type=email /></label></p>
+
+			</fieldset> 
+		</form>
+		<!-- click on line to copy -->
+
+		<!-- inputs have different constraints - ie.  only numbers allowed for phone number -->
+		<!-- HTML gives structure, while CSS gives it form (makes it pretty). Javascript is the nervous system.   -->
+
+	</div>
+	<h2>Form with Radio Type, Copied from slack</h2>
+	<div class="form-three">
+		<form>
+		<fieldset>
+	  		<legend>Biggest Burritos in the World!</legend>			<p><input type="radio" name="size" id="size1" /><label for="size1"> Humongous </label></p>
+			<!-- type=radio puts a circle on the page -->
+			<!-- Note in this form the input is after the label, which puts the circle/box infront of the name and not behind (as above) -->
+			<!-- HTML5 Doctor in google is a great resource to use -->
+			<p><label> <input type="radio" name=size> Double-Humongous </label></p>
+			<p><label> <input type="radio" name=size> Triple-Humongous </label></p>
+			<p><label> <input type="radio" name=size> Quatro-Humongous </label></p>
+			<p><label> <input type="radio" name=size> Pentagon-Humongous </label></p>
+
+	
+		</fieldset>
+	</form>
+
+	</div>
+
+
+	<div class="form-four">
+
+		<H1>Form with Checkbox</H1>
+		<form>
+			<fieldset>
+				<legend>Fixings</legend>
+				<p><label><input type="checkbox" />Sauteed Onions</label></p>
+				<p><label><input type="checkbox" />Cheese</label></p>
+				<p><label><input type="checkbox" />Beef</label></p>
+				<p><label><input type="checkbox" />Tomatoes</label></p>
+				<p><label><input type="checkbox" />Lettuce</label></p>
+				<p><label>Delivery Instructions</label><textarea></textarea></p>
+			</fieldset>
+
+		</form>
+		
+
+	</div>
+</body>
+</html>
