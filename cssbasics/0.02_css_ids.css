@@ -1,0 +1,21 @@
+
+
+
+#number-one {
+	color: red;
+	font-family: sans-serif;
+}
+
+#number-two {
+	font-size: 25px;
+}
+
+.first-class{
+	font-size: 24px;
+	background-color: lightblue;
+	color: red;
+}
+
+.second-class{
+	font-family: sans-serif;
+}

@@ -1,0 +1,12 @@
+h1 {
+	text-align: center;
+}
+
+.margin-intro{
+	text-align: center;
+}
+
+.margins {
+	border: 2px blue;
+	margin-top: 75px;
+}
