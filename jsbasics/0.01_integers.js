@@ -1,5 +1,6 @@
 // var num = 9; //all start out lower case.
-// var newNum = 3; //this is called camel casing.  Starts out lower case and hump in the middle. - FYI you don't need to close the comment.  Also only good for one line.
+// var newNum = 3; //this is called camel casing.  Starts out lower case and hump in the middle. - use with 2 or more words, cap all new words.
+//FYI you don't need to close the comment.  Also only good for one line.
 // var newer_num = 10; //this is snake casing
 
 // console.log(num); //can console.log along the way to see the results of what you have done in the console (at the bottom of the page).  Consule.log prints to the bottom of the page.
