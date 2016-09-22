@@ -161,12 +161,14 @@ Return a message that says something like this:
 // console.log (purchase (100, .99, 1.07))
 
 //Below is Paul's example on Thursday, 9/22/16
-function calculatePrice(quanity, price, item, tax){
+function calculatePrice(quantity, price, item, tax){
 
 	var totalTax = (quanity * price * tax);
 	var totalPrice = quanity * price + totalTax;
-	return quantity + " " +item + " will cost you $" + totalPrice.toFixed(2); //this keeps it at 2 number after decimal
+	return quantity + " " + item + " will cost you $" + totalPrice.toFixed(2); //this keeps it at 2 number after decimal
+
+}
 
 console.log (calculatePrice (132, .88, "Cups of Coffee", 1.07));
 
-}
+// don't know why this doesn't print correctly.
