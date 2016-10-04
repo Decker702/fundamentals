@@ -16,4 +16,11 @@ $(document).ready(function(){
 		$("#image").fadeIn(5000); //5000 is 5 seconds
 	});
 
+//Friday, Sept 23, 2016 from the board - other ways to maniplate the picture:
+
+$("#explore").click(function(){
+	$("#image").hide("explode", { pieces: 1000}) //and then it disappeared.
+})
+
+
 });

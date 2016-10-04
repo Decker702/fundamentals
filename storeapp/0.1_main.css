@@ -1,0 +1,51 @@
+
+#header{
+	font-size: 56px;
+	color: darkblue; margin-left: 80px;
+}
+
+body{
+	background-color: lightblue;
+	margin: 0;
+}
+
+a{
+	color: green;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:hover{
+	color: darkblue ;
+	text-decoration: underline;
+	background-color: aquamarine;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
